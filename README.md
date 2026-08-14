@@ -64,6 +64,94 @@ https://huggingface.co/sanaisrail/SI26-urdu-ocr-model
 
  5. How to Run It Locally
 
-#Step 1 — Clone the Repository
+Step 1 — Clone the Repository
 
 git clone https://github.com/sanaisrail/urdu-ocr-codesaviours-si26-Sana.git
+
+ Step 2 — Install Dependencies
+
+Install the required libraries using:
+
+pip install -r requirements.txt
+
+The main libraries used in this project are:
+
+ Python
+ PyTorch
+ Hugging Face Transformers
+ TrOCR
+ Streamlit
+ Pillow
+ Torchvision
+ SentencePiece
+
+Step 3 — Run the Application
+
+Start the Streamlit application using:
+
+streamlit run app.py
+
+After running the application, open the local URL shown in the terminal.
+
+Upload an image containing Urdu text and click the "Extract Urdu Text" button to see the predicted text.
+
+
+6. Dataset Details
+
+The dataset contains approximately 200 Urdu text images.
+
+The images were collected from online sources and Google searches and prepared for the Urdu OCR task.
+
+The dataset contains different types of Urdu text and includes variations in:
+
+ Fonts
+ Font sizes
+ Backgrounds
+ Image sizes
+ Text appearance
+
+The purpose of using different types of images was to expose the model to different visual forms of Urdu text.
+
+Dataset details:
+
+| Detail | Description |
+|---|---|
+| Total Images | 200 |
+| Language | Urdu |
+| Image Type | Text images |
+| Source | Internet / Google |
+| Fonts | Different Urdu fonts |
+| Font Sizes | Different sizes |
+| Backgrounds | Different backgrounds |
+| Image Sizes | Different image dimensions |
+| Task | Urdu Optical Character Recognition |
+
+
+7. Results
+
+The final accuracy obtained during the Week 4 evaluation was 0.00%.
+
+The result was low, but it helped identify some limitations of the current approach.
+
+One possible reason is that the original TrOCR checkpoint used in the project was mainly designed for printed English text rather than Urdu. Urdu has a different writing system, connected characters, and different visual patterns.
+
+Other possible reasons include:
+
+ The dataset was relatively small, with approximately 200 images.
+ Training and evaluation images may have been different.
+ Urdu fonts and image styles varied.
+ There was limited Urdu-specific training data.
+ The model required more fine-tuning for the Urdu language.
+
+The results showed that the current approach needs further improvement for reliable Urdu text recognition.
+
+With more time, I would improve the project by collecting a larger and better-labelled Urdu OCR dataset, using an Urdu or multilingual pretrained OCR model, adding more font and image variations, improving image preprocessing, and performing more extensive fine-tuning.
+
+I would also use OCR-specific evaluation metrics such as Character Error Rate (CER) and Word Error Rate (WER) to better evaluate the model's performance.
+
+
+8. Credit
+
+Sana 
+
+Built during the Code Saviours ML/AI Internship — Batch SI-26.
