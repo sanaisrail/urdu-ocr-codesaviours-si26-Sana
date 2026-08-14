@@ -54,13 +54,12 @@ The dataset contains approximately 200 Urdu text images. The images include diff
 
 Hugging Face Space:
 
-PASTE YOUR HUGGING FACE SPACE URL HERE
-
 The live demo allows users to upload an Urdu text image and view the text predicted by the OCR model.
 
 Hugging Face Model:
 
 https://huggingface.co/sanaisrail/SI26-urdu-ocr-model
+
 
  5. How to Run It Locally
 
