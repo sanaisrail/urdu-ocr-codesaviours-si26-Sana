@@ -57,7 +57,6 @@ Hugging Face Space:
 The live demo allows users to upload an Urdu text image and view the text predicted by the OCR model.
 
 Hugging Face Model:
-
 https://huggingface.co/sanaisrail/SI26-urdu-ocr-model
 
 
