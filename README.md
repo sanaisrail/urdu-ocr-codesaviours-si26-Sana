@@ -98,7 +98,7 @@ Upload an image containing Urdu text and click the "Extract Urdu Text" button to
 
 The dataset contains approximately 200 Urdu text images.
 
-The project includes `dataset(6).csv` and `label_corrected.csv`, which were used for preparing the image-text pairs for model training.
+The project includes `dataset.csv` and `label_corrected.csv`, which were used for preparing the image-text pairs for model training.
 
 
 The images were collected from online sources and Google searches and prepared for the Urdu OCR task.
