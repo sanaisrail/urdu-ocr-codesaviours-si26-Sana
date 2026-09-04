@@ -1,4 +1,4 @@
-Urdu OCR Project | Code Saviours SI-26 | Sana 
+Urdu OCR Project | Code Saviours SI-26 | Sana
 
 OCR (Optical Character Recognition) is a technology that converts text from images into editable digital text. Urdu OCR is more challenging than English OCR because Urdu is written from right to left, many letters change shape, and several characters look similar. Urdu OCR can be used to digitize old books and historical documents, as well as convert printed records into digital text for schools, businesses, and government offices.
 
@@ -57,7 +57,7 @@ Hugging Face Space:
 The live demo allows users to upload an Urdu text image and view the text predicted by the OCR model.
 
 Hugging Face Model:
-https://huggingface.co/sanaisrail/SI26-urdu-ocr-model
+https://huggingface.co/spaces/sanaisrail/SI26-urdu-ocr-model
 
 
  5. How to Run It Locally
